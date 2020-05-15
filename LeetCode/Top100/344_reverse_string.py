@@ -1,5 +1,6 @@
 from typing import List
 
+# 2020.05.14 after work
 class Solution:
     def reverseString(self, s: List[str]) -> None:
         """
