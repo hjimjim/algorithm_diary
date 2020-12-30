@@ -1,6 +1,6 @@
 import random
 
-def bubblesort(data):
+def bubble_sort(data):
     for j in range(len(data)-1):
         swap = False
         for i in range(len(data)-j-1):
