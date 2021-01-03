@@ -4,10 +4,10 @@ def split(data):
         return data
     
     medium = int(len(data)/2)
-    left = data[:medium] 
-    right = data[medium:]
+    left = split(data[:medium])
+    right = split(data[medium:])
 
-    return merge(split(left), split(right))
+    return merge(left, right)
 
 def merge(left, right):
     result = list()
