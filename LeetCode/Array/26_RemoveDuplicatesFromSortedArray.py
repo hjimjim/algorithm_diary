@@ -8,8 +8,7 @@ class Solution:
         Runtime : 76ms, faster than 99.47%
         very simple approach 
         1. track index so that nums[:track] doesn't have any duplicated element
-        2. during interating given list, when new element shows up 
-            set new element to nums[track+1]
+        2. when new element shows up set new element to nums[track+1]
     """
     def removeDuplicates(self, nums: List[int]) -> int:
         track = 0
