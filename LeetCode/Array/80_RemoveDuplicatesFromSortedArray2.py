@@ -1,6 +1,6 @@
 class Solution:
     """
-        Top Interview 150 (Array/ Easy)
+        Top Interview 150 (Array/ Medium)
         80. Remove Duplicates from Sorted Array II
         link : https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii
         Date : Jun 14, 2023
