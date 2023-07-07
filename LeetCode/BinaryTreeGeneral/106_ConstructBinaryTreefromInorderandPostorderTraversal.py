@@ -7,7 +7,7 @@ class TreeNode:
         self.right = right
 class Solution:
     """
-        Top Interview 150 (BinaryTree/ Easy)
+        Top Interview 150 (BinaryTree/ Medium)
         106. Construct Binary Tree from Inorder and Postorder Traversal
         link : https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
         Date : July 7, 2023
