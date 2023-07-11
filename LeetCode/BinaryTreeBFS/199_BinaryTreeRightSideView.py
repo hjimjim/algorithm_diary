@@ -7,7 +7,7 @@ class TreeNode:
         self.right = right
 class Solution:
     """
-        Top Interview 150 (BinaryTree/ Easy)
+        Top Interview 150 (BinaryTree BFS/ Medium)
         199. Binary Tree Right Side View
         link : https://leetcode.com/problems/binary-tree-right-side-view/
         Date : July 10, 2023
@@ -19,7 +19,7 @@ class Solution:
         visited = list()
         need_visit = [root, 'mark']
         res = list()
-        
+
         while need_visit:
             node = need_visit.pop(0)
             if node == 'mark':
