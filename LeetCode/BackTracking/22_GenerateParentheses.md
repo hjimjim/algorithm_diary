@@ -25,7 +25,7 @@ def check_parenthesis(parentheses):
 
 def build_parenthese안  
     candidates length가 0이면 check_parenthese 하기  
-        check_parenthesis 가 True일 경우  
+        check_parenthesis 가 True일 경우    
             res.append(parentheses)  
     n번 for문을 돌면서 candidates에 있는 candidate combination 만들기    
     
