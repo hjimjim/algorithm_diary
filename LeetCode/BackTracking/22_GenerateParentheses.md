@@ -16,7 +16,8 @@
 
 ## 코드를 초안 끄적거리기 (draft)
 처음에는 1.1, 2.2를 이용하여 문제를 풀어보기로 하였다.   
-  
+
+```
 candidates = "()" * n #무작위로 호출할 괄호 후보 만들기  
 def check_parenthesis(parentheses):  
     # parentheses 규칙에 맞는지 확인하여 True, False return 하기  
@@ -28,7 +29,7 @@ def build_parenthese안
         check_parenthesis 가 True일 경우    
             res.append(parentheses)  
     n번 for문을 돌면서 candidates에 있는 candidate combination 만들기    
-    
+```   
 
 ## 코드 직접 작성해서 돌려보기
 
