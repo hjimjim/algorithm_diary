@@ -1,5 +1,3 @@
-problem link: https://leetcode.com/problems/word-search/
-
 ## Understand problems better by thinking about complex cases.
 example 1 
 - [1, 10, 2, 3, 10] --> ans = 20
