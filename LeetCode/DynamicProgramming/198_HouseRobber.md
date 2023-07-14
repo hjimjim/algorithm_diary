@@ -5,13 +5,13 @@ example 1
 - [1, 10, 2, 3, 10] --> ans = 20
 1. Rob 1 + Rob 3 + Rob 5 ==> max of (Rob 1, Rob 2, Rob 3) + Rob 5
 2. Rob 1 + Rob 4 ==> max of (Rob 1, Rob 2) + Rob 4
-3. Rob 2 + Rob 4 
-...
-Rob 1 = Rob 1
-Rob 2 = Rob 2
-Rob 3 = max(Rob 1) + Rob 3
-Rob 4 = max(Rob 1, Rob 2) + Rob 4 
-Rob 5 = max(Rob 2, Rob 3) + Rob 5
+3. Rob 2 + Rob 4  
+...  
+Rob 1 = Rob 1  
+Rob 2 = Rob 2  
+Rob 3 = max(Rob 1) + Rob 3  
+Rob 4 = max(Rob 1, Rob 2) + Rob 4   
+Rob 5 = max(Rob 2, Rob 3) + Rob 5  
  
 ## Write the solution in human language
 Rob N can be calculated by adding Rob N to max(Rob N-2, Rob N-1)
