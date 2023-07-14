@@ -1,5 +1,3 @@
-problem link: https://leetcode.com/problems/word-search/
-
 ## Understand problems better by thinking about complex cases.
 - can not visit the same cell that is already visited
 - can only visit cells horizontally or vertically neighboring
