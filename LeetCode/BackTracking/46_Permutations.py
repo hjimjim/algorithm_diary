@@ -10,16 +10,26 @@ class Solution:
     """
     def permute(self, nums: List[int]) -> List[List[int]]:
         res = []
-        
         def permutation(permu):
             if len(permu) == len(nums):
-                res.append(permu[:])
+                res.append(permu)
                 return 
             for i in nums:
                 if i not in permu:
-                    permu.append(i)
-                    permutation(permu)
-                    permu.pop()
+                    permutation(permu + [i])
         
         permutation([])
         return res
+
+        # def permutation(permu):
+        #     if len(permu) == len(nums):
+        #         res.append(permu[:])
+        #         return 
+        #     for i in nums:
+        #         if i not in permu:
+        #             permu.append(i)
+        #             permutation(permu)
+        #             permu.pop()
+        
+        # permutation([])
+        # return res
