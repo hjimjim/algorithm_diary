@@ -1,13 +1,13 @@
 from typing import List
 class Solution:
     """
-            Top Interview 150 (DP/ Medium)
-            198. House Robber
-            link: https://leetcode.com/problems/house-robber/
-            Date : July 14, 2023
+        Top Interview 150 (DP/ Medium)
+        198. House Robber
+        link: https://leetcode.com/problems/house-robber/
+        Date : July 14, 2023
         
-            Runtime : 43 ms, faster than 83.45%
-        """
+        Runtime : 43 ms, faster than 83.45%
+    """
     
     def rob(self, nums: List[int]) -> int:
         first, second = 0, 0
