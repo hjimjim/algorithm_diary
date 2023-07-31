@@ -8,6 +8,7 @@ class Solution:
         Date : July 31, 2023
         
         Runtime : 190 ms, faster than 99.09% 
+        다른 솔루션들을 살펴 보았을때 postfix, prefix를 구하는 방법으로 정형화되어 있는듯 보임
     """
     def productExceptSelf(self, nums: List[int]) -> List[int]:
         
