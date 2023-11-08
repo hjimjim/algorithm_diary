@@ -35,3 +35,28 @@ class Solution:
                     need_visit.append(node.right)
         
         return res
+
+        """
+        q = collections.deque()
+        res = []
+
+        if not root:
+            return []
+
+        q.append(root)
+
+        while q:
+            node = None
+            for i in range(len(q)):
+                node = q.popleft()
+                if node.left: q.append(node.left)
+                if node.right: q.append(node.right)
+            
+       
+            res.append(node.val)
+
+        return res 
+        
+        """
+
+        
